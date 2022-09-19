@@ -1,0 +1,48 @@
+스타벅스 하면서 몰랐던 것들
+
+스타벅스 GITHUB
+https://github.com/ParkYoungWoong/starbucks-vanilla-app
+
+--------------------------------------------
+document = html 자체
+
+ <a href="javascript:void(0)">Sign In</a>
+=#과 똑같은 뜻
+
+----------------------
+
+BEM(Block Element Modifider)
+
+요소__일부분 : 요소의 일부분을 표시
+    <div class="container">
+      <div class="container__name"></div>
+      <div class="item">
+        <div class="item__name"></div>
+      </div>
+    </div>
+
+
+요소--상태 : 요소의 상태를 표시
+    <div class="btn btn--primary"></div>
+    <div class="btn btn--success"></div>
+    <div class="btn btn--error"></div>
+
+
+
+
+.contents .content__sub-wrap .content__sub__01 li::after{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 4px;
+    background: #000;
+    content: "";
+}
+.contents .content__sub-wrap .content__sub__02 li::after{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 4px;
+    background: #000;
+    content: "";
+}
