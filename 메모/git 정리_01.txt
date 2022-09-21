@@ -1,0 +1,22 @@
+git --version = 깃 버전관리
+git init --branch 확인
+
+
+repositoires -  저장소
+
+
+git remote add origin -주소를 원격 연결
+
+
+#개행문자 설정 (운영체재 설정)
+#Windows
+git config --global core.autocrlf true
+
+#사용자 정보 
+##커밋 (버전 생성)을 위한 정보 등록
+git config --global user.name 'hatnimEE'
+git config --global user.email 'sunyang6@naver.com'
+
+#구성 확인
+##Q키를 눌러 종료
+git config --global --list
